@@ -22,8 +22,8 @@ def insert_zero(month):
 
 # Authenticate and stores de webproperties object in a variable
 account = sc.authenticate(
-    client_config='./auth/client_secret.json',
-    credentials='./auth/credentials.json')
+    client_config='./credentials/client_secret.json',
+    credentials='./credentials/credentials.json')
 
 # webproperties = account.webproperties
 
